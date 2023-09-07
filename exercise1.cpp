@@ -16,12 +16,12 @@ public:
 
     double calculateArea()
     {
-        return pow(radius, 2) * 3.14159;
+        return pow(radius, 2) * PI;
     }
 
     double calculateCircumference()
     {
-        return 2 * 3.14159 * radius;
+        return 2 * PI * radius;
     }
 };
 
